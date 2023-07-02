@@ -8,6 +8,7 @@ const time_line = new TimelineMax();
 // parameter2 是duration
 // parameter3 是控制對象的原始狀態
 // parameter4 是控制對象的動畫結束後的狀態
+//parameter5 提早或晚幾秒開始動畫
 time_line
   .fromTo(hero, 1, { height: "0%" }, { height: "100%", ease: Power2.easeInOut })
   .fromTo(
